@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h1{
+    padding: 10px;
+}
+
+#wraper {
+    /* border: 5px solid rgb(174, 35, 179); */
+    width: 800px;
+    margin: auto;
+}
+
+
+/* Navbar */
+
+#navbar {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.network{
+    margin-left: 15px;
+}
+
+.feed {
+    margin: auto;
+    text-align: center;
+    height: 50px;
+}
+
+/* Main Content */
+
+#content {
+    /* border: 5px solid hotpink; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.avatar {
+    /* border: 5px solid rgb(28, 255, 47); */
+    border: 3px solid black;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    height: 175px;
+}
+
+img {
+    width: 75px;
+    display: block;
+    margin: auto;
+}
+
+/* .right-side {
+    border: 5px solid rgb(255, 0, 0);
+    width: 300px;
+    height: 200px;
+} */
+
+.post {
+    /* border: 5px solid rgb(28, 229, 255); */
+    border: 3px solid black;
+    width: 275px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.likes {
+    /* border: 5px solid rgb(28, 255, 47); */
+    display: flex;
+    margin: 0px 5px;
+}
+
+.btn-likes {
+    box-shadow: 2px 3px black;
+    margin: 0px 10px;
+    background-color: #ffd966;
+    border-color: black;
+    border-radius: 3px;
+    color: black;
+    padding: 3px 5px;
+}
